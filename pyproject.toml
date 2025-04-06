@@ -1,0 +1,26 @@
+[project]
+name = "cancerdetection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "nizarsh98",email = "jabernizar98@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+
+dependencies = [
+    "streamlit (>=1.44.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (==1.1.3)",
+    "joblib (>=1.4.2,<2.0.0)",
+    "qiskit (==0.44.1)",
+    "qiskit-machine-learning (==0.6.1)",
+    "qiskit-aer (==0.12.0)",
+    "numpy (==1.23.5)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
